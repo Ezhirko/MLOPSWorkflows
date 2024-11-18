@@ -4,7 +4,6 @@ import torch.nn as nn
 import torch.optim as optim
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
-import torchsummary as summary
 import torch.nn.functional as F
 
 # Define the model
