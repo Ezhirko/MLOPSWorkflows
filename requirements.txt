@@ -1,7 +1,7 @@
 -f https://download.pytorch.org/whl/torch_stable.html
-torch==2.0.1+cpu
+torch
 -f https://download.pytorch.org/whl/torch_stable.html
-torchvision==0.15.2+cpu 
+torchvision
 typing_extensions
 sympy
 pluggy
