@@ -3,6 +3,7 @@ torch==2.0.1+cpu
 -f https://download.pytorch.org/whl/torch_stable.html
 torchvision==0.15.2+cpu 
 typing_extensions
+sympy
 pluggy
 pytest
 numpy
