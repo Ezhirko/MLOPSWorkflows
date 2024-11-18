@@ -8,3 +8,4 @@ pluggy
 pytest
 numpy
 iniconfig
+Pillow
