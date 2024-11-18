@@ -4,6 +4,7 @@ torch==2.3.1+cpu
 torchvision==0.18.1+cpu
 typing_extensions
 sympy
+mpmath
 pluggy
 pytest
 numpy
