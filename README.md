@@ -80,5 +80,24 @@ The repository is integrated with GitHub Actions. The workflow tests:
     └── workflows/
         └── ci_cd.yml     # GitHub Actions configuration
 
+---
+## How to Run
+1. **Train the Model:**
+```bash
+python train.py
+```
+2. **Run Tests:**
+```bash
+pytest test_pipeline.py
+```
+---
+
+## CI/CD Pipeline
+The GitHub Actions workflow automatically runs the following:
+
+- **Install Dependencies:** Installs required Python packages.
+- **Run Unit Tests:** Executes all test cases to ensure compliance.
+- **Validate Accuracy:** Confirms training accuracy exceeds 95% in one epoch.
+
 
 
