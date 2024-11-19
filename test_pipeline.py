@@ -11,7 +11,7 @@ def model():
 def test_total_parameters(model):
     """Test that the model has fewer than 100,000 parameters."""
     total_params = sum(p.numel() for p in model.parameters())
-    assert total_params < 100000, f"Model has {total_params} parameters, exceeding the limit."
+    assert total_params < 25000, f"Model has {total_params} parameters, exceeding the limit."
 
 def test_input_compatibility(model):
     """Test that the model accepts 28x28 input without errors."""
